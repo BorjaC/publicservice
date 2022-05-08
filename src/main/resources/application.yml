@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+app:
+  api:
+    title: @artifactId@
+    version: @version@
+    description: @description@
+    base-package: com.adidas.public
+    contact-name: Borja
+    contact-email: borjacolmenarejo@gmail.com
+
+adidas:
+  service:
+    subscription:
+      url: http://localhost:8080
